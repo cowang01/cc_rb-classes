@@ -1,3 +1,8 @@
+
+
+  ##Graham Cowan CodeClan Ex.W2D1 - classes examples
+
+
 class CodeClan_Student
 
   attr_accessor :name, :cohort

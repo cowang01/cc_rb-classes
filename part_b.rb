@@ -1,5 +1,7 @@
 
 
+  ##Graham Cowan CodeClan Ex.W2D1 - classes examples
+
 class Sports_Team
 
   attr_accessor :team, :players, :coach, :points

@@ -21,6 +21,8 @@ class Test_CodeClan_Student < MiniTest::Test
     @student2 = CodeClan_Student.new("Lisa", "G15")
   end
 
+
+
   def test_change_student_name
     @student1.name = "Jerry"
     assert_equal('Jerry', @student1.name())

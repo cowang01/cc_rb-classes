@@ -21,9 +21,16 @@ class Test_Sports_Team < MiniTest::Test
     @team_1 = Sports_Team.new("Blue Wolves", ["Jim", "Billy", "Susan", "Lucy", "Andy"], "Mr T", 0)
   end
 
+
+
   def test_add_new_player
     @team_1.add_new_player("Graham")
     assert_equal(6, @team_1.players.length())
+  end
+
+  def test_update_coach_name
+    @team_1.coach = "The Face"
+    assert_equal("The Face", @team_1.coach)
   end
 
   def test_check_player_active
